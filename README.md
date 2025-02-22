@@ -45,6 +45,11 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
+After installing dependencies, download the SpaCy language model:
+```
+python -m spacy download en_core_web_sm
+```
+
 ---
 
 # Running the Code
@@ -65,18 +70,23 @@ For hybrid filtering, enter your ```userId```.
 
 ```
 Enter '1' for content-based or '2' for hybrid recommendation: 1
-Enter movie description preferences: Action adventure fantasy
+Enter movie description preferences: I love sci-fi and adventure films with lots of action.
+Extracted Genres: Action Sci-Fi Animation
 Recommended Movies:
-Mad Max: Fury Road (Score: 0.82)
-Guardians of the Galaxy (Score: 0.79)
-Interstellar (Score: 0.75)
+I Am So Proud of You (2008) (Score: 0.64)
+Alien Rising (2013) (Score: 0.57)
+Parasite Dolls (2003) (Score: 0.55)
+Ghost in the Shell 2.0 (2008) (Score: 0.54)
+The Cure (2014) (Score: 0.54)
 
-Enter '1' for content-based or '2' for hybrid recommendation: 2
+Enter '1' for content-based or '2' for hybrid recommendation: 1
 Enter your user ID: 3
 Recommended Movies:
-The Dark Knight (Score: 4.8)
-Inception (Score: 4.7)
-The Matrix (Score: 4.6)
+Children of Men (2006) (Score: 468.05)
+Fire From Below (2009) (Score: 456.74)
+Day After Tomorrow, The (2004) (Score: 445.39)
+Jumper (2008) (Score: 435.52)
+Batman (1943) (Score: 435.37)
 ```
 
 
