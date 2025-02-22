@@ -25,7 +25,7 @@ This system uses two CSV files:
 
 **ratings.csv**: Contains user ratings with columns userId, movieId, rating, and timestamp.
 
-Ensure these files are in the Data directory. If you relocate them then you must change the lines:
+To run the code you must download the dataset first ```https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system/data``` and put it in the Data directory. Ensure these files are in the Data directory. If you relocate them then you must change the lines:
 ```
 movie_file = 'Data/movies.csv'
 
