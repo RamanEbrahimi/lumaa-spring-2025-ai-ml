@@ -26,11 +26,11 @@ This system uses two CSV files:
 **ratings.csv**: Contains user ratings with columns userId, movieId, rating, and timestamp.
 
 Ensure these files are in the Data directory. If you relocate them then you must change the lines:
-''' 
+```
 movie_file = 'Data/movies.csv'
 
 rating_file = 'Data/ratings.csv'
-'''
+```
 
 ---
 
@@ -41,9 +41,9 @@ Prerequisites
 Python version: 3.8+
 
 Install dependencies using:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ---
 
@@ -53,17 +53,17 @@ Run the Jupyter Notebook and execute the script interactively.
 
 When prompted:
 
-Enter '''1''' for content-based recommendation or '''2''' for hybrid recommendation.
+Enter ```1``` for content-based recommendation or ```2``` for hybrid recommendation.
 
 For content-based filtering, enter a movie description (e.g., *"I like action movies set in space"*).
 
-For hybrid filtering, enter your '''userId'''.
+For hybrid filtering, enter your ```userId```.
 
 ---
 
 # Example Output
 
-'''
+```
 Enter '1' for content-based or '2' for hybrid recommendation: 1
 Enter movie description preferences: Action adventure fantasy
 Recommended Movies:
@@ -77,7 +77,7 @@ Recommended Movies:
 The Dark Knight (Score: 4.8)
 Inception (Score: 4.7)
 The Matrix (Score: 4.6)
-'''
+```
 
 
 
